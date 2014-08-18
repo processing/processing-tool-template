@@ -20,7 +20,7 @@
  * 
  * @author		##author##
  * @modified	##date##
- * @version		##version##
+ * @version		##tool.prettyVersion##
  */
 
  package template.tool;
@@ -37,14 +37,16 @@
  
  
 	public String getMenuTitle() {
-		return "Hello Tool";
+		return "##tool.name##";
 	}
  
 	public void init(Editor theEditor) {
 	}
  
 	public void run() {
-		System.out.println("hello Tool. ##name## ##version## by ##author##");
+	    // Fill in author.name, author.url, tool.prettyVersion and project.prettyName in
+	    // build.properties for them to be auto-replaced here.
+		System.out.println("hello Tool. ##tool.name## ##tool.prettyVersion## by ##author##");
 	}
  
  }
