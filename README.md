@@ -64,7 +64,7 @@ To distribute your tool please refer to the [Tool Guidelines](https://github.com
 
 ## Source code
 
-If you want to share your tool's source code (and we know you do), we recommend using an online repository available for free at [Google Code](http://code.google.com) or [GitHub](http://github.com).
+If you want to share your tool's source code (and we know you do), we recommend using an online repository available for free at [GitHub](http://github.com).
 
 ## <a name='AddingJARs'/>Adding pde.jar and other .jar files to your classpath
 
