@@ -25,9 +25,8 @@
 
  package template.tool;
  
- import processing.app.*;
- import processing.app.tools.*;
- 
+ import processing.app.tools.Tool;
+ import processing.app.ui.Editor;
  
  
  public class HelloTool implements Tool {
