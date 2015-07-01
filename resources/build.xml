@@ -52,8 +52,8 @@
 	<property name="project.reference" location="reference"/>
 	<property name="project.dist" location="distribution"/>
 	<property name="project.dist.version" location="distribution/${project.name}-${tool.version}"/>
-	<property name="install.source" location="resources/install_instructions.txt"/>
-	<property name="install.destination" location="${project.dist.version}/INSTALL.txt"/>
+	<property name="install.source" location="resources/README.md"/>
+	<property name="install.destination" location="${project.dist.version}/README.md"/>
 	<property name="toolprops.source" location="resources/tool.properties"/>
 	
 	<taskdef resource="net/sf/antcontrib/antcontrib.properties">
@@ -289,7 +289,7 @@ ${line}
 	
 	
 	<target name="generate.install.tool" if="is.normal">	
-		<copy file="${install.source}" tofile="${project.dist.version}/INSTALL.txt" />
+		<copy file="${install.source}" tofile="${install.destination}" />
 		        
 		<antcall target="parse.file"><param name="file" value="${install.destination}"/></antcall>
 	</target>
