@@ -1,4 +1,4 @@
-<project name="ProcessingTools" default="clean" basedir="../">
+<project name="Processing Tool" default="clean" basedir="../">
 
     
 <!--	
