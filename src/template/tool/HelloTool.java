@@ -25,6 +25,7 @@
 
 package template.tool;
 
+import processing.app.Base;
 import processing.app.tools.Tool;
 import processing.app.ui.Editor;
 
@@ -41,9 +42,9 @@ public class HelloTool implements Tool {
   }
 
 
-  public void init(Editor editor) {
+  public void init(Base base) {
     // Store a reference to the Processing application itself
-    base = editor.getBase();
+    this.base = base;
   }
 
 
