@@ -78,7 +78,7 @@
 	
 	<target name="init"> 
 		<echo>${line}
-    Building the Processing tool, ${project.name} ${tool.version}
+    Building the Processing Tool, ${project.name} ${tool.version}
 ${line}
 	src path        ${project.src}
 	bin path        ${project.bin}
@@ -211,7 +211,7 @@ ${line}
 	<target name="generate.javadoc" if="is.normal">
 	  	<!-- create the java reference of the tool -->
 		<javadoc bottom="Processing tool ${project.name} by ${author.name}. ${tool.copyright}" 
-				classpath="${classpath.local.location}/core.jar;{project.bin}" 
+				classpath="${classpath.local.location}/core.jar;${classpath.local.location}/pde.jar;{project.bin}" 
 				destdir="${project.tmp}/${project.name}/reference" 
 				verbose="false" 
 				stylesheetfile="resources/stylesheet.css" 
