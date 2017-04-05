@@ -1,58 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src" />
-	<classpathentry kind="con"
-		path="org.eclipse.jdt.launching.JRE_CONTAINER" />
-	<classpathentry kind="lib"
-		path="C:/Users/vesol/workspace/libs/pde.jar" />
-	<classpathentry kind="lib"
-		path="C:/Users/vesol/workspace/libs/core.jar" />
-	<classpathentry kind="lib"
-		path="C:/eclipse/plugins/org.eclipse.core.databinding_1.6.0.v20161101-1312.jar"
-		sourcepath="C:/eclipse/plugins/org.eclipse.core.databinding_1.6.0.v20161101-1312.jar" />
-	<classpathentry kind="lib"
-		path="C:/eclipse/plugins/org.eclipse.core.databinding.beans_1.5.0.v20140808-1904.jar"
-		sourcepath="C:/eclipse/plugins/org.eclipse.core.databinding.beans_1.5.0.v20140808-1904.jar" />
-	<classpathentry kind="lib"
-		path="C:/eclipse/plugins/org.eclipse.core.databinding.observable_1.6.0.v20170105-1239.jar"
-		sourcepath="C:/eclipse/plugins/org.eclipse.core.databinding.observable_1.6.0.v20170105-1239.jar" />
-	<classpathentry kind="lib"
-		path="C:/eclipse/plugins/org.eclipse.core.databinding.property_1.6.0.v20170105-1239.jar"
-		sourcepath="C:/eclipse/plugins/org.eclipse.core.databinding.property_1.6.0.v20170105-1239.jar" />
-	<classpathentry kind="lib"
-		path="C:/eclipse/plugins/org.eclipse.jface.databinding_1.8.100.v20170105-1239.jar"
-		sourcepath="C:/eclipse/plugins/org.eclipse.jface.databinding_1.8.100.v20170105-1239.jar" />
-	<classpathentry kind="lib"
-		path="C:/eclipse/plugins/org.eclipse.equinox.common_3.9.0.v20170111-0945.jar"
-		sourcepath="C:/eclipse/plugins/org.eclipse.equinox.common_3.9.0.v20170111-0945.jar" />
-	<classpathentry kind="lib"
-		path="C:/eclipse/plugins/com.ibm.icu_56.1.0.v201601250100.jar"
-		sourcepath="C:/eclipse/plugins/com.ibm.icu_56.1.0.v201601250100.jar" />
-	<classpathentry kind="lib" path="jgoodies-common-1.8.0.jar"
-		sourcepath="jgoodies-common-1.8.0-sources.jar" />
-	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar"
-		sourcepath="jgoodies-forms-1.8.0-sources.jar" />
-	<classpathentry kind="lib" path="miglayout15-swing.jar"
-		sourcepath="miglayout-src.zip" />
-	<classpathentry kind="lib" path="lib/derby.jar" />
-	<classpathentry kind="lib" path="lib/derby.war" />
-	<classpathentry kind="lib" path="lib/derbyclient.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_cs.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_de_DE.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_es.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_fr.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_hu.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_it.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_ja_JP.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_ko_KR.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_pl.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_pt_BR.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_ru.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_zh_CN.jar" />
-	<classpathentry kind="lib" path="lib/derbyLocale_zh_TW.jar" />
-	<classpathentry kind="lib" path="lib/derbynet.jar" />
-	<classpathentry kind="lib" path="lib/derbyoptionaltools.jar" />
-	<classpathentry kind="lib" path="lib/derbyrun.jar" />
-	<classpathentry kind="lib" path="lib/derbytools.jar" />
-	<classpathentry kind="output" path="bin" />
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/vesol/workspace/libs/pde.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vesol/workspace/libs/core.jar"/>
+	<classpathentry kind="lib" path="lib/derby.jar"/>
+	<classpathentry kind="lib" path="lib/derby.war"/>
+	<classpathentry kind="lib" path="lib/derbyclient.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_cs.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_de_DE.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_es.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_fr.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_hu.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_it.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_ja_JP.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_ko_KR.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_pl.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_pt_BR.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_ru.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_zh_CN.jar"/>
+	<classpathentry kind="lib" path="lib/derbyLocale_zh_TW.jar"/>
+	<classpathentry kind="lib" path="lib/derbynet.jar"/>
+	<classpathentry kind="lib" path="lib/derbyoptionaltools.jar"/>
+	<classpathentry kind="lib" path="lib/derbyrun.jar"/>
+	<classpathentry kind="lib" path="lib/derbytools.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vesol/AppData/Local/Eclipse/beansbinding-1.2.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
